@@ -1,0 +1,88 @@
+/* globals.css */
+
+* {
+  box-sizing: border-box;
+}
+
+
+/*body */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  background-image: linear-gradient(to right, rgb(11, 86, 131), rgb(21, 145, 148),rgb(11, 86, 131));
+}
+
+/*container */
+.container {
+  background-color: #fff;
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+}
+.container header{
+  font-size: 30px;
+  font-weight: 600;
+  padding: 10px;
+} 
+
+
+/* input */
+.input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* button*/
+.button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* task list and item*/
+.task-list {
+  list-style-type: none;
+  padding: 0;
+}
+.task-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+}
+
+/*completed task item */
+.task-item.completed {
+  color: #ccc;
+}
+
+
+/* complete and delete buttons */
+.complete-button{
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.delete-button{
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: rgb(246, 17, 17);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
